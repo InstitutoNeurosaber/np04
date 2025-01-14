@@ -1,0 +1,53 @@
+export interface Student {
+  active_id: string;
+  created_at: string;
+  contato_email: string;
+  first_name: string;
+  last_name: string;
+  phone: string;
+  active_tags: string[];
+  clicked_links: number;
+  opened_emails: number;
+  open_rate: number;
+  click_through_rate: number;
+  click_to_open_rate: number;
+  openings_points: number;
+  clicks_points: number;
+  interaction_points: number;
+  ultimo_email_aberto: string;
+  ultimo_link_clicado: string;
+  sent_email: number;
+  total_emails_abertos: number;
+  
+  // Campos adicionais do Jacad
+  cademi_id?: string;
+  doc?: string;
+  nome_do_curso?: string;
+  progresso?: number;
+  id_do_curso?: string;
+  tipo_do_evento?: string;
+  Jacad_id?: string;
+  idPeriodoLetivo?: string;
+  idAluno?: string;
+  idCurso?: string;
+  dataMatricula?: string;
+  dataAtivacao?: string;
+  dataTrancamento?: string;
+  idContrato?: string;
+  _alunoRa?: string;
+  _aluno?: string;
+  _alunoCpf?: string;
+  _alunoEmail?: string;
+  _alunoCelular?: string;
+  _alunoSexo?: string;
+  _alunoDataNascimento?: string;
+  _alunoRg?: string;
+  _alunoRgOrgaoExpedidor?: string;
+  _alunoCidade?: string;
+  _alunoEstado?: string;
+  _alunoEndereco?: string;
+  _alunoCep?: string;
+  _alunoEnderecoNumero?: string;
+  _alunoEnderecoBairro?: string;
+  _alunoEnderecoComplemento?: string;
+}
